@@ -1,0 +1,5 @@
+2026-11-06T06:07:34+00:00 WARNING Email "customer_new_account" for user #2 failed to send: Tidak dapat membuat instance fungsi mail. CONTEXT: {"email_type":"customer_new_account","status":"failed","recipient":"afdal.alqadri","user":2}
+2026-11-06T06:07:37+00:00 WARNING Email "new_order" for order #78 failed to send: Tidak dapat membuat instance fungsi mail. CONTEXT: {"email_type":"new_order","status":"failed","recipient":"NusantaraCraft","order":78}
+2026-11-06T06:07:39+00:00 WARNING Email "customer_on_hold_order" for order #78 failed to send: Tidak dapat membuat instance fungsi mail. CONTEXT: {"email_type":"customer_on_hold_order","status":"failed","recipient":"afdal.alqadri","order":78}
+2026-11-06T06:11:40+00:00 WARNING Email "new_order" for order #79 failed to send: Tidak dapat membuat instance fungsi mail. CONTEXT: {"email_type":"new_order","status":"failed","recipient":"NusantaraCraft","order":79}
+2026-11-06T06:11:42+00:00 WARNING Email "customer_on_hold_order" for order #79 failed to send: Tidak dapat membuat instance fungsi mail. CONTEXT: {"email_type":"customer_on_hold_order","status":"failed","recipient":"afdal.alqadri","order":79}

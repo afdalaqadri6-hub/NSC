@@ -1,0 +1,5 @@
+2026-11-05T10:02:34+00:00 DEBUG Validating API credentials (test_mode: yes)
+2026-11-05T10:02:34+00:00 DEBUG GET https://api.sandbox.oscato.com/api/meta/divisions
+2026-11-05T10:02:36+00:00 DEBUG Response [401] CONTEXT: {"body":"Authentication needed"}
+2026-11-05T10:02:36+00:00 ERROR API credential validation failed: Request failed with status code 401 and message: Authentication needed
+2026-11-05T10:02:36+00:00 DEBUG Payment networks saved

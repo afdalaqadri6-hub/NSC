@@ -1,0 +1,66 @@
+2026-11-05T07:20:54+00:00 DEBUG #7665 - [New Request] GET /NSC/wordpress-7.1.4/wordpress/wp-admin/admin.php @ 07:20:48.631
+2026-11-05T07:20:54+00:00 DEBUG #7665 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-11-05T07:20:54+00:00 WARNING #7665 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{\"statusCode\":404,\"error\":\"Not Found\",\"message\":\"Not Found\"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-11-05T07:21:00+00:00 DEBUG #6734.REST - [New Request] GET /NSC/wordpress-7.1.4/wordpress/wp-json/wc/v3/wc_paypal/webhooks @ 07:20:55.934
+2026-11-05T07:21:00+00:00 DEBUG #6734.REST - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-11-05T07:21:30+00:00 DEBUG #9867.REST - [New Request] POST /NSC/wordpress-7.1.4/wordpress/wp-json/wc/v3/wc_paypal/login_link @ 07:21:26.546
+2026-11-05T07:21:30+00:00 INFO #9867.REST - Generating onboarding URL for: production-express_checkout-
+2026-11-05T07:21:31+00:00 DEBUG #9867.REST - POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"http:\/\/localhost\/NSC\/wordpress-7.1.4\/wordpress\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1leHByZXNzX2NoZWNrb3V0LSIsInUiOjEsImgiOiI1MjQ0MjY5ODQwMGIxNzdiYzQyM2MwYzhhMWE3NDhhNyJ9","return_url_description":"Return to your shop.","show_add_credit_card":false},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT"],"seller_nonce":"a2f1d089d7d3ca844989b9b39e02a2b9b35b60226bb2e17fa5d235ceb5a0aa64"}}}}]}
+Response Debug ID: 727f2c010f448
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2026-11-05T07:21:41+00:00 DEBUG #1310.REST - [New Request] POST /NSC/wordpress-7.1.4/wordpress/wp-json/wc/v3/wc_paypal/login_link @ 07:21:36.648
+2026-11-05T07:21:41+00:00 DEBUG #1310.REST - Loaded onboarding URL from cache: production-express_checkout-
+2026-11-05T07:21:41+00:00 INFO #1310.REST - Using cached onboarding URL for: production-express_checkout-
+2026-11-05T07:46:39+00:00 DEBUG #8473.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:46:36.339
+2026-11-05T07:46:39+00:00 ERROR #8473.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:48:49+00:00 DEBUG #7619.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:48:46.726
+2026-11-05T07:48:49+00:00 ERROR #7619.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:48:59+00:00 DEBUG #1820.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:48:57.186
+2026-11-05T07:48:59+00:00 ERROR #1820.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:09+00:00 DEBUG #8869.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:07.173
+2026-11-05T07:49:09+00:00 ERROR #8869.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:13+00:00 DEBUG #6424.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:10.660
+2026-11-05T07:49:13+00:00 ERROR #6424.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:17+00:00 DEBUG #4981.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:14.442
+2026-11-05T07:49:17+00:00 ERROR #4981.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:24+00:00 DEBUG #9493.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:21.854
+2026-11-05T07:49:24+00:00 ERROR #9493.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:27+00:00 DEBUG #1560.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:25.300
+2026-11-05T07:49:27+00:00 ERROR #1560.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:31+00:00 DEBUG #5942.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:28.915
+2026-11-05T07:49:31+00:00 ERROR #5942.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:37+00:00 DEBUG #1638.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:35.370
+2026-11-05T07:49:37+00:00 ERROR #1638.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:42+00:00 DEBUG #3925.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:40.115
+2026-11-05T07:49:42+00:00 ERROR #3925.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T07:49:49+00:00 DEBUG #4325.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 07:49:46.589
+2026-11-05T07:49:49+00:00 ERROR #4325.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T09:54:38+00:00 DEBUG #1615.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 09:54:35.580
+2026-11-05T09:54:38+00:00 ERROR #1615.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T09:54:48+00:00 DEBUG #1037.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 09:54:46.225
+2026-11-05T09:54:48+00:00 ERROR #1037.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-05T09:54:51+00:00 DEBUG #1879.WC - [New Request] POST /NSC/wordpress-7.1.4/wordpress/ @ 09:54:49.189
+2026-11-05T09:54:51+00:00 ERROR #1879.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
